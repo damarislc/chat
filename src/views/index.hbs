@@ -1,0 +1,18 @@
+<div id="username-form">
+  <h1>Ingrese su nombre de usuario</h1>
+  <form action="">
+    <input type="text" id="username" required />
+    <button type="submit">Unirse al chat</button>
+  </form>
+</div>
+<div id="chat-form" style="display:none">
+  <h1>Sala de chat</h1>
+  <div id="chat-messages"></div>
+  <form action="">
+    <input type="text" id="message" />
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
